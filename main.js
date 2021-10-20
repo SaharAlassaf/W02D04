@@ -15,7 +15,7 @@ const deleteListItem = (i) => {
 }
 
 const updateListItem = (i) => {
-    toDos[i] = prompt("Enter a number");
+    toDos[i] = prompt("Change the task");
     renderList();
 }
 
